@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="box">
+      <h3 id="title">DOM DETILES</h3>
+
+      <table>
+        <form>
+          <tr>
+            <td>
+              <label for="First Name">First Name</label>
+              <input type="text" id="First Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Last Name">Last Name</label>
+              <input type="text" id="Last Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="address">Address</label>
+              <input type="text" id="Address" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="pincode">Pincode</label>
+              <input type="number" id="pincode" /><br />
+            </td>
+          </tr>
+          <tr>
+            <td id="Gender">
+              <label for="Gender">Gender</label>
+              <input
+                type="radio"
+                name="Male"
+                value="Male"
+                onclick="handleClick(this)"
+              />male
+              <input
+                type="radio"
+                name="Female"
+                value="Female"
+                onclick="handleClick(this)"
+              />female
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="fav food">Fav Food</label>
+              <input type="text" id="food name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="state">State</label>
+              <input type="text" id="State Name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Country">Country</label>
+              <input type="type" id="Country" />
+            </td>
+          </tr>
+        </form>
+      </table>
+      <br /><br />
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
+  </body>
+</html>

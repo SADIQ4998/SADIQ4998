@@ -1,0 +1,9 @@
+nav{
+  background-color: aqua;
+  width: 100px;
+  height: fit-content;
+  font-size: medium;
+  display: flex;
+align-items: center;
+float: none;
+}
