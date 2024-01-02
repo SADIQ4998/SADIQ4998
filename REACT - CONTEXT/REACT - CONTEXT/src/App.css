@@ -1,18 +1,58 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+  
+  
 }
   
 .prod-card{
   display: inline-block;
-  margin: 10px;
+  margin: 10px 20px;
   padding: 25px;
-  background-color:#010101;
+  background-color:#f19a9a;
   border-radius: 8px;
-  width:fit-content;
+  max-width:max-content;
+  overflow: hidden;
+  transition: 0.3s;
+  color: #ff0000;
+  border-style:ridge;
+  object-fit: cover;
+  width: 300px;
+  height: 500px;
+
   
 
 
 }
+img{
+  max-width: 40vh;
+  border-radius: 4px;
+  opacity: 90%;
+  align-items:center ;
+ 
+}
 
+
+ .cart-action {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+ }
+ 
+ .cart-action:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ button{
+  background-color: rgb(111, 194, 47);
+  
+ }

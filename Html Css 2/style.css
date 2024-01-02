@@ -1,46 +1,131 @@
-<style>
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  
+  background-color: #f5f5f5;
+  height: 100vh;
+ 
 }
 
-/* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
   background-color: #333;
-  
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
   color: #f2f2f2;
+  padding: 10px;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  
 }
 
-/* Change color on hover */
+.topnav a {
+  color: inherit;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
-  
+  color: #333;
 }
 
-/* Style the content */
 .content {
-  background-color: #ddd;
-  padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  background-color: #000000;
+  color: #e8e8e8;
+  padding: 100px;
+  text-align: center;
+}
+
+.content img {
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+
+.bio {
+  width: max-content;
+  width: 75%;
+  height: 75%;
+  padding: 2px;
+  margin: 0;
+  text-align: center;
+  border: 2px groove aqua;
+  display: inline-table;
+}
+
+.foot {
+  width: max-content;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 15px;
+}
+
+.awards {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: auto;
+  font-size: small;
+  padding: 15px;
+  gap: 1rem;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  float: right;
+}
+
+button {
+  border-radius: 5px;
+  width: 100px;
+  gap: 1rem;
+}
+
+li {
+  align-items: baseline;
+}
+
+p {
+  border: 2px groove;
 }
 
 
-</style>
+
+.poet {
+  margin: 0 auto;
+  padding: 1px;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+  line-height: 1em;
+  border-style: groove;
+  width: max-content;
+}
+
+
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.poem{
+  font-size: 15px;
+}
